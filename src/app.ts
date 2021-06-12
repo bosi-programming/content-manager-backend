@@ -16,7 +16,7 @@ import { connectToDataBase } from './mongoConnection';
 export const notSoSecret = 'banana';
 
 const app: express.Application = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 8002;
 connectToDataBase();
 
 app.use(cors());
